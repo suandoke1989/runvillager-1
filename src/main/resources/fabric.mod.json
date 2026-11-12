@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "villagerpanic",
+  "version": "${version}",
+  "name": "Villager Panic",
+  "description": "Villagers flee from danger: when one of them takes damage from a player or any other mob, it and all villagers nearby run away from the attacker.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.villagerpanic.VillagerPanicMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
