@@ -16,7 +16,7 @@ import net.minecraft.util.math.Vec3d;
 public final class PanicManager {
 
     private static final int PANIC_DURATION_TICKS = 160;
-    private static final double FLEE_SPEED = 1.5D;
+    private static final double FLEE_SPEED = 1.1D;
     private static final double SPREAD_RADIUS = 16.0D;
     private static final double FLEE_DISTANCE = 16.0D;
     private static final long BRAIN_MEMORY_TICKS = 200L;
